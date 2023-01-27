@@ -15,7 +15,7 @@ env:
   
 jobs:
   setup-build-publish-deploy:
-    name: Setup Build Publish Deploy to Cloud Run
+    name: Setup Build Publish Deploy to Cloud Run 
     runs-on: ubuntu-latest
     
     steps:

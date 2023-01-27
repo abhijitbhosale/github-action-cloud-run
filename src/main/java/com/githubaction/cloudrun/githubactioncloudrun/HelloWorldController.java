@@ -10,6 +10,6 @@ public class HelloWorldController {
 	@RequestMapping
 	@ResponseBody
 	public String getString() {
-		return "Hello World";
+		return "Hello World 12";
 	}
 }

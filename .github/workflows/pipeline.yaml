@@ -3,8 +3,7 @@ name: Build and Deploy to Cloud Run.
 on:
   push:
     branch:
-      -main
-     
+      -main    
 env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
   IMAGE: github-action-cloud-run-image
